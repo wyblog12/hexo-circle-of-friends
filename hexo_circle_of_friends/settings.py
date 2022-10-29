@@ -17,7 +17,7 @@
 # 支持配置多个友链页面并指定不同主题策略，每个用{}分隔，它们会被同时爬取，数据保存在一起。***至少配置一个***
 LINK = [
     {
-        "link": "https://blog.gjcloak.top/link/",  # 友链页地址1，修改为你的友链页地址
+        "link": "https://661111.github.io/friends/",  # 友链页地址1，修改为你的友链页地址
         "theme": "butterfly"
     },
     #     {
@@ -40,12 +40,15 @@ LINK = [
 #       avatar：必填，头像地址
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS = {
-    "enable": False,
+    "enable": ture,
     "json_api": "",
     "list": [
         # 示例1：
         ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
         ["Akilarの糖果屋", "https://akilar.top/", "https://akilar.top/images/headimage.png"],
+        ["无影博客", "https://661111.github.io/", "https://661111.github.io/media/images/custom-headerLogo.png"],
+        ["conge", "https://conge.github.io/", "https://conge.github.io/favicon.ico?"],
+        ["Luminous' Home", "https://luotianyi.vc/", "https://cdn.luotianyi.vc/wp-content/uploads/2020-02-13_09-22-57.jpg"],
         # 示例2：使用suffix的配置如下
         # 程序目前自动获取 "atom.xml", "feed/atom", "rss.xml", "rss2.xml", "feed", "index.xml" 这些后缀
         # 如果目标地址的后缀不在其中，就可以在这里添加
